@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Teacher Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script type="module">
+</script>
+    <div class="container">
+        <h1>Student-Teacher Booking</h1>
+
+        <!-- Add Teacher Form -->
+        <form id="addTeacherForm">
+            <h2>Add Teacher</h2>
+            <label for="teacherNameAdd">Teacher Name:</label>
+            <input type="text" id="teacherNameAdd" required>
+
+            <label for="departmentAdd">Department:</label>
+            <select id="departmentAdd" onchange="loadSubjects()">
+                <option value="Computer Science">Computer Science</option>
+                <option value="Internet of Things">Internet of Things</option>
+                <option value="Pharmacy">Pharmacy</option>
+                <option value="Agriculture">Agriculture</option>
+            </select>
+
+            <label for="subjectAdd">Subject:</label>
+			<select id="subjectAdd" onchange="addTeacher()">
+                <option value="Maths">Maths</option>
+                <option value="Social">Social</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Hindi">Hindi</option>
+           </select>
+
+
+            <button type="button" onclick="addTeacher()">Add Teacher</button>
+        </form>
+
+        <!-- Update/Delete Teacher Form -->
+        <form id="updateDeleteTeacherForm">
+            <h2>Update/Delete Teacher</h2>
+            <label for="teacherId">Teacher ID:</label>
+            <input type="text" id="teacherId" required>
+
+            <label for="teacherNameUpdate">New Teacher Name:</label>
+            <input type="text" id="teacherNameUpdate">
+
+            <button type="button" onclick="updateTeacher()">Update Teacher</button>
+            <button type="button" onclick="deleteTeacher()">Delete Teacher</button>
+        </form>
+
+        <!-- Approve Registration Form -->
+        <form id="approveRegistrationForm">
+            <h2>Approve Registration</h2>
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" required>
+
+            <button type="button" onclick="approveRegistration()">Approve Registration</button>
+        </form>
+
+        <!-- Book Appointment Form -->
+        <form id="appointmentForm">
+            <h2>Book Appointment</h2>
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" required>
+
+            <label for="teacherName">Teacher Name:</label>
+            <input type="text" id="teacherName" required>
+
+            <label for="appointmentDate">Date:</label>
+            <input type="date" id="appointmentDate" required>
+
+            <button type="button" onclick="bookAppointment()">Book Appointment</button>
+        </form>
+
+        <ul id="appointmentsList"></ul>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-analytics.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
