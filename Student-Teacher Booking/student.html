@@ -14,7 +14,17 @@
 
         <!-- Add Teacher Form -->
         <form id="addTeacherForm">
-            <h2>Add Teacher</h2>
+			 <div class="mb-3 form border border-info rounded bg-info bg-gradient">
+             <h3 class="mb-3">Login</h3>
+                <input type="text" placeholder="Username" id="userInp" class="form-control mb-3">
+                <input type="text" placeholder="Password" id="passInp" class="form-control mb-3">
+                <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input mb-3" id="customSwitch1">
+                <label class="custom-control-label mb-3" for="customSwitch1">Keep me logged in</label>
+        </div>
+        <button type="text" id="sub_btn" class=" btn btn-danger mb-3 w-100">Login</button>
+        <a href="register.html" class="badge badge-warning py-1 w-100">Don't have an account?</a>
+    </div>
             <label for="teacherNameAdd">Teacher Name:</label>
             <input type="text" id="teacherNameAdd" required>
 
@@ -47,7 +57,7 @@
             <label for="teacherNameUpdate">New Teacher Name:</label>
             <input type="text" id="teacherNameUpdate">
 
-            <button type="button" onclick="updateTeacher()">Update Teacher</button>
+            <<button type="button" onclick="updateTeacher()">Update Teacher</button>
             <button type="button" onclick="deleteTeacher()">Delete Teacher</button>
         </form>
 
