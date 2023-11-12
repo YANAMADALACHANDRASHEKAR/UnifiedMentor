@@ -2,6 +2,27 @@
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD1DtbgZZUupuRN2uuYRj_q8wxJJ4JSGCw",
+  authDomain: "electric-609a2.firebaseapp.com",
+  projectId: "electric-609a2",
+  storageBucket: "electric-609a2.appspot.com",
+  messagingSenderId: "402160567555",
+  appId: "1:402160567555:web:db5024597a517c2d749536",
+  measurementId: "G-3QMVV455E0"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 // Function to check login status and update message
 function updateLoginStatusMessage() {
