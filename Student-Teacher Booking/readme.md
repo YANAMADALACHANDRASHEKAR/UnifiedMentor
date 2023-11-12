@@ -1,7 +1,7 @@
                         *** Student-Teacher Appointment Booking System***
 1. Executive Summary: In the dynamic landscape of education, effective 
 communication between students and teachers is paramount for academic success. This 
-report outlines the implementation of a Student-Teacher Appointment Booking System, 
+report outlines the implementation of a Student Teacher Appointment Booking System, 
 aimed at streamlining the scheduling process and fostering better collaboration 
 between students and teachers.
 2. Introduction: Traditional methods of scheduling appointments, such as email 
