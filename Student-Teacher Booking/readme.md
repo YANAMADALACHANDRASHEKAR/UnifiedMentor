@@ -4,13 +4,17 @@ communication between students and teachers is paramount for academic success. T
 report outlines the implementation of a Student Teacher Appointment Booking System, 
 aimed at streamlining the scheduling process and fostering better collaboration 
 between students and teachers.
+
+
 **2. Introduction:** Traditional methods of scheduling appointments, such as email 
 exchanges or in-person sign-ups, can be cumbersome and inefficient. The StudentTeacher Appointment Booking System is designed to provide a user-friendly and 
 efficient platform for students to schedule appointments with their teachers.
+
 **3. Objectives**
 • Facilitate convenient appointment scheduling for students and teachers.
 • Reduce administrative burden on staff related to appointment coordination.
 • Enhance communication between students and teacher.
+
 **4.1 Admin Section:**
 Add Teacher:
 Admin can add teachers with name, department, and subject details.
@@ -26,7 +30,9 @@ View Messages:
 Teachers can view messages sent by students.
 View All Appointments: 
 Teachers can view a list of all appointments.
-**6. Implementation:**
+
+
+**5. Implementation:**
 • The system allows to have teacher login.It includes three main sections: Admin, 
 Teacher, and Student, each catering to specific functionalities
 **7. Benefits:**
