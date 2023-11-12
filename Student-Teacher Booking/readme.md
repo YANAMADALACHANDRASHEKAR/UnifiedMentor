@@ -11,7 +11,6 @@ efficient platform for students to schedule appointments with their teachers.
 • Facilitate convenient appointment scheduling for students and teachers.
 • Reduce administrative burden on staff related to appointment coordination.
 • Enhance communication between students and teacher.
-3.1 System architecture
 4. Features of the System:
 4.1 Admin Section:
 Add Teacher:
