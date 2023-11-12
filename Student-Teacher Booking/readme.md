@@ -7,7 +7,7 @@ between students and teachers.
 2. Introduction: Traditional methods of scheduling appointments, such as email 
 exchanges or in-person sign-ups, can be cumbersome and inefficient. The StudentTeacher Appointment Booking System is designed to provide a user-friendly and 
 efficient platform for students to schedule appointments with their teachers.
-3. Objectives:
+//3. Objectives://
 • Facilitate convenient appointment scheduling for students and teachers.
 • Reduce administrative burden on staff related to appointment coordination.
 • Enhance communication between students and teacher.
